@@ -12,7 +12,7 @@ int josephus_iterate(int total,int k)  //zero-based
     return survivor;
 }
 
-int josephus_recursive(int total,int k)
+int josephus_recursive(int total,int k)  //zero-based
 {
     if(total==0)
     {
